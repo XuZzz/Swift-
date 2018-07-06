@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		406E7C92B35BE7014C84E05F /* Pods_MVVM_Swift_Chidu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA9E2CEC0F40AAC6F48D7A /* Pods_MVVM_Swift_Chidu.framework */; };
+		95549A6E20DB48880014634C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95549A6D20DB48880014634C /* ChatViewController.swift */; };
+		95549A7020DB49220014634C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95549A6F20DB49220014634C /* ChatView.swift */; };
+		95549A7220DB73E60014634C /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95549A7120DB73E60014634C /* ChatViewModel.swift */; };
+		95549A7420DB74280014634C /* XZConstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95549A7320DB74280014634C /* XZConstClass.swift */; };
 		956BA52320D210DF0079B12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA52220D210DF0079B12D /* AppDelegate.swift */; };
-		956BA52520D210DF0079B12D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA52420D210DF0079B12D /* ViewController.swift */; };
-		956BA52820D210DF0079B12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956BA52620D210DF0079B12D /* Main.storyboard */; };
 		956BA52A20D210E10079B12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956BA52920D210E10079B12D /* Assets.xcassets */; };
 		956BA52D20D210E10079B12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956BA52B20D210E10079B12D /* LaunchScreen.storyboard */; };
 		956BA53820D210E10079B12D /* MVVM_Swift_ChiduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA53720D210E10079B12D /* MVVM_Swift_ChiduTests.swift */; };
 		956BA54320D210E10079B12D /* MVVM_Swift_ChiduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA54220D210E10079B12D /* MVVM_Swift_ChiduUITests.swift */; };
+		956BA55320D212490079B12D /* XZMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA55220D212490079B12D /* XZMainViewController.swift */; };
+		956BA55520D219020079B12D /* XZChangeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA55420D219020079B12D /* XZChangeColorView.swift */; };
+		956BA55720D219BB0079B12D /* XZChangeColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA55620D219BB0079B12D /* XZChangeColorViewModel.swift */; };
+		956BA56020D351C90079B12D /* XZPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA55F20D351C90079B12D /* XZPlayer.swift */; };
+		956BA56320D368860079B12D /* XZLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA56220D368860079B12D /* XZLoginController.swift */; };
+		956BA56720D38F9E0079B12D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA56620D38F9E0079B12D /* LoginView.swift */; };
+		956BA56920D38FA90079B12D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956BA56820D38FA90079B12D /* LoginViewModel.swift */; };
+		956BA56C20D3A8100079B12D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 956BA56B20D3A8100079B12D /* data.json */; };
+		958CD1A020D9FB6300003294 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958CD19F20D9FB6300003294 /* SocketManager.swift */; };
+		95D84A9A20E1E5B800B762A0 /* OtherPeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D84A9820E1E5B800B762A0 /* OtherPeopleCell.swift */; };
+		95D84A9B20E1E5B800B762A0 /* OtherPeopleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D84A9920E1E5B800B762A0 /* OtherPeopleCell.xib */; };
+		95D84A9E20E216E900B762A0 /* MineMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D84A9C20E216E900B762A0 /* MineMessageCell.swift */; };
+		95D84A9F20E216E900B762A0 /* MineMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D84A9D20E216E900B762A0 /* MineMessageCell.xib */; };
+		95D84AA120E33ADA00B762A0 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D84AA020E33ADA00B762A0 /* ControlView.swift */; };
+		95D84AA320E33AE600B762A0 /* ControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95D84AA220E33AE600B762A0 /* ControlView.xib */; };
+		95D84AA920E3841300B762A0 /* XZBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D84AA820E3841300B762A0 /* XZBaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BA478B357AFCD4F4A7119AC /* Pods-MVVM+Swift-Chidu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+Swift-Chidu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+Swift-Chidu/Pods-MVVM+Swift-Chidu.debug.xcconfig"; sourceTree = "<group>"; };
+		95549A6D20DB48880014634C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		95549A6F20DB49220014634C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		95549A7120DB73E60014634C /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		95549A7320DB74280014634C /* XZConstClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZConstClass.swift; sourceTree = "<group>"; };
 		956BA51F20D210DF0079B12D /* MVVM+Swift-Chidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+Swift-Chidu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		956BA52220D210DF0079B12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		956BA52420D210DF0079B12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		956BA52720D210DF0079B12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		956BA52920D210E10079B12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956BA52C20D210E10079B12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956BA52E20D210E10079B12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +69,24 @@
 		956BA53E20D210E10079B12D /* MVVM+Swift-ChiduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM+Swift-ChiduUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		956BA54220D210E10079B12D /* MVVM_Swift_ChiduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Swift_ChiduUITests.swift; sourceTree = "<group>"; };
 		956BA54420D210E10079B12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956BA55220D212490079B12D /* XZMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZMainViewController.swift; sourceTree = "<group>"; };
+		956BA55420D219020079B12D /* XZChangeColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZChangeColorView.swift; sourceTree = "<group>"; };
+		956BA55620D219BB0079B12D /* XZChangeColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZChangeColorViewModel.swift; sourceTree = "<group>"; };
+		956BA55F20D351C90079B12D /* XZPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZPlayer.swift; sourceTree = "<group>"; };
+		956BA56220D368860079B12D /* XZLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZLoginController.swift; sourceTree = "<group>"; };
+		956BA56620D38F9E0079B12D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		956BA56820D38FA90079B12D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		956BA56B20D3A8100079B12D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "../../../../Library/Containers/com.tencent.WeWorkMac/Data/Library/Application Support/WXWork/Data/1688851735306265/Cache/File/2018-06/data.json"; sourceTree = "<group>"; };
+		958CD19F20D9FB6300003294 /* SocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		95D84A9820E1E5B800B762A0 /* OtherPeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPeopleCell.swift; sourceTree = "<group>"; };
+		95D84A9920E1E5B800B762A0 /* OtherPeopleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherPeopleCell.xib; sourceTree = "<group>"; };
+		95D84A9C20E216E900B762A0 /* MineMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineMessageCell.swift; sourceTree = "<group>"; };
+		95D84A9D20E216E900B762A0 /* MineMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineMessageCell.xib; sourceTree = "<group>"; };
+		95D84AA020E33ADA00B762A0 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		95D84AA220E33AE600B762A0 /* ControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControlView.xib; sourceTree = "<group>"; };
+		95D84AA820E3841300B762A0 /* XZBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZBaseView.swift; sourceTree = "<group>"; };
+		B68FDACE73ABF76D6B4C8744 /* Pods-MVVM+Swift-Chidu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM+Swift-Chidu.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM+Swift-Chidu/Pods-MVVM+Swift-Chidu.release.xcconfig"; sourceTree = "<group>"; };
+		DFFA9E2CEC0F40AAC6F48D7A /* Pods_MVVM_Swift_Chidu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_Swift_Chidu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406E7C92B35BE7014C84E05F /* Pods_MVVM_Swift_Chidu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +115,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D0EFE795AECAA219937358F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BA478B357AFCD4F4A7119AC /* Pods-MVVM+Swift-Chidu.debug.xcconfig */,
+				B68FDACE73ABF76D6B4C8744 /* Pods-MVVM+Swift-Chidu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95549A6C20DB48660014634C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				95549A6D20DB48880014634C /* ChatViewController.swift */,
+				95549A6F20DB49220014634C /* ChatView.swift */,
+				95549A7120DB73E60014634C /* ChatViewModel.swift */,
+				95D84A9820E1E5B800B762A0 /* OtherPeopleCell.swift */,
+				95D84A9920E1E5B800B762A0 /* OtherPeopleCell.xib */,
+				95D84A9C20E216E900B762A0 /* MineMessageCell.swift */,
+				95D84A9D20E216E900B762A0 /* MineMessageCell.xib */,
+				95D84AA020E33ADA00B762A0 /* ControlView.swift */,
+				95D84AA220E33AE600B762A0 /* ControlView.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		956BA51620D210DF0079B12D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +147,8 @@
 				956BA53620D210E10079B12D /* MVVM+Swift-ChiduTests */,
 				956BA54120D210E10079B12D /* MVVM+Swift-ChiduUITests */,
 				956BA52020D210DF0079B12D /* Products */,
+				1D0EFE795AECAA219937358F /* Pods */,
+				EC3259CE9F27531F4378EE98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +165,11 @@
 		956BA52120D210DF0079B12D /* MVVM+Swift-Chidu */ = {
 			isa = PBXGroup;
 			children = (
-				956BA52220D210DF0079B12D /* AppDelegate.swift */,
-				956BA52420D210DF0079B12D /* ViewController.swift */,
-				956BA52620D210DF0079B12D /* Main.storyboard */,
+				95549A6C20DB48660014634C /* Chat */,
+				956BA56120D3686C0079B12D /* Login */,
+				956BA55A20D243DB0079B12D /* Tools */,
+				956BA55920D243CF0079B12D /* Base */,
+				956BA55820D23F7C0079B12D /* MusicList */,
 				956BA52920D210E10079B12D /* Assets.xcassets */,
 				956BA52B20D210E10079B12D /* LaunchScreen.storyboard */,
 				956BA52E20D210E10079B12D /* Info.plist */,
@@ -125,6 +195,86 @@
 			path = "MVVM+Swift-ChiduUITests";
 			sourceTree = "<group>";
 		};
+		956BA55820D23F7C0079B12D /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55D20D243F70079B12D /* ViewModel */,
+				956BA55C20D243F10079B12D /* View */,
+				956BA55B20D243EA0079B12D /* Controller */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		956BA55920D243CF0079B12D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55E20D351B80079B12D /* XZPlayer */,
+				956BA52220D210DF0079B12D /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		956BA55A20D243DB0079B12D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				956BA56B20D3A8100079B12D /* data.json */,
+				958CD19F20D9FB6300003294 /* SocketManager.swift */,
+				95549A7320DB74280014634C /* XZConstClass.swift */,
+				95D84AA820E3841300B762A0 /* XZBaseView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		956BA55B20D243EA0079B12D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55220D212490079B12D /* XZMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		956BA55C20D243F10079B12D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55420D219020079B12D /* XZChangeColorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		956BA55D20D243F70079B12D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55620D219BB0079B12D /* XZChangeColorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		956BA55E20D351B80079B12D /* XZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				956BA55F20D351C90079B12D /* XZPlayer.swift */,
+			);
+			path = XZPlayer;
+			sourceTree = "<group>";
+		};
+		956BA56120D3686C0079B12D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				956BA56220D368860079B12D /* XZLoginController.swift */,
+				956BA56620D38F9E0079B12D /* LoginView.swift */,
+				956BA56820D38FA90079B12D /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EC3259CE9F27531F4378EE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFA9E2CEC0F40AAC6F48D7A /* Pods_MVVM_Swift_Chidu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 956BA54720D210E10079B12D /* Build configuration list for PBXNativeTarget "MVVM+Swift-Chidu" */;
 			buildPhases = (
+				962BAB71A0CA895CDC82593D /* [CP] Check Pods Manifest.lock */,
 				956BA51B20D210DF0079B12D /* Sources */,
 				956BA51C20D210DF0079B12D /* Frameworks */,
 				956BA51D20D210DF0079B12D /* Resources */,
+				6B50AC38B2CFFC245471DB1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +381,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D84A9F20E216E900B762A0 /* MineMessageCell.xib in Resources */,
 				956BA52D20D210E10079B12D /* LaunchScreen.storyboard in Resources */,
+				95D84A9B20E1E5B800B762A0 /* OtherPeopleCell.xib in Resources */,
+				956BA56C20D3A8100079B12D /* data.json in Resources */,
+				95D84AA320E33AE600B762A0 /* ControlView.xib in Resources */,
 				956BA52A20D210E10079B12D /* Assets.xcassets in Resources */,
-				956BA52820D210DF0079B12D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +406,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B50AC38B2CFFC245471DB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+Swift-Chidu/Pods-MVVM+Swift-Chidu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVM+Swift-Chidu/Pods-MVVM+Swift-Chidu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962BAB71A0CA895CDC82593D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM+Swift-Chidu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		956BA51B20D210DF0079B12D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956BA52520D210DF0079B12D /* ViewController.swift in Sources */,
+				95549A6E20DB48880014634C /* ChatViewController.swift in Sources */,
+				95D84A9E20E216E900B762A0 /* MineMessageCell.swift in Sources */,
+				95549A7420DB74280014634C /* XZConstClass.swift in Sources */,
+				956BA56020D351C90079B12D /* XZPlayer.swift in Sources */,
+				956BA56720D38F9E0079B12D /* LoginView.swift in Sources */,
 				956BA52320D210DF0079B12D /* AppDelegate.swift in Sources */,
+				95D84A9A20E1E5B800B762A0 /* OtherPeopleCell.swift in Sources */,
+				95549A7020DB49220014634C /* ChatView.swift in Sources */,
+				95D84AA120E33ADA00B762A0 /* ControlView.swift in Sources */,
+				956BA55520D219020079B12D /* XZChangeColorView.swift in Sources */,
+				95D84AA920E3841300B762A0 /* XZBaseView.swift in Sources */,
+				956BA56920D38FA90079B12D /* LoginViewModel.swift in Sources */,
+				956BA55720D219BB0079B12D /* XZChangeColorViewModel.swift in Sources */,
+				956BA55320D212490079B12D /* XZMainViewController.swift in Sources */,
+				958CD1A020D9FB6300003294 /* SocketManager.swift in Sources */,
+				95549A7220DB73E60014634C /* ChatViewModel.swift in Sources */,
+				956BA56320D368860079B12D /* XZLoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +520,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		956BA52620D210DF0079B12D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				956BA52720D210DF0079B12D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		956BA52B20D210E10079B12D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +647,13 @@
 		};
 		956BA54820D210E10079B12D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA478B357AFCD4F4A7119AC /* Pods-MVVM+Swift-Chidu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYY96KKK9;
 				INFOPLIST_FILE = "MVVM+Swift-Chidu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,17 +661,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delinshe.MVVM-Swift-Chidu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		956BA54920D210E10079B12D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68FDACE73ABF76D6B4C8744 /* Pods-MVVM+Swift-Chidu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MYY96KKK9;
 				INFOPLIST_FILE = "MVVM+Swift-Chidu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delinshe.MVVM-Swift-Chidu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
